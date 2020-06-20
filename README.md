@@ -6,15 +6,15 @@
 
 一路由器或是第三層交換器設備需要知道重要訊息包含：
 
-DES Addr (發送端主機負責)
+- [x] DES Addr (發送端主機負責)
 
-Info SRC (資訊來源讓路由學到通往目的地的路徑)
+- [x] Info SRC (資訊來源讓路由學到通往目的地的路徑)
 
-Possible Route (可能路徑)
+- [x] Possible Route (可能路徑)
 
-Best Route (最佳路徑)
+- [x] Best Route (最佳路徑)
 
-Maintenance & Verification (維護和確認)
+- [x] Maintenance & Verification (維護和確認)
 
 可以選擇靜態路由，亦或是動態路由，動態路由包含：
 
