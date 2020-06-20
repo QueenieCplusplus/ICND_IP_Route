@@ -42,6 +42,7 @@
 
        Router(config-router)#router-idrp as-no.
        Router(config-router)#network net-no.
+       Router(config-router)#traffic-share balanced
 
 * EIGRP 加強式內部閘道路由通訊協定（多個自主系統間，混合 RIP 和 OSPF 演算法）
 
