@@ -45,6 +45,8 @@
        Router(config-router)#traffic-share balanced
        Router# sh ip protocols
        Router# sh ip route
+       Router#debug ip igrp trans (transaction)
+       Router#debug ip igrp events
 
 * EIGRP 加強式內部閘道路由通訊協定（多個自主系統間，混合 RIP 和 OSPF 演算法）
 
