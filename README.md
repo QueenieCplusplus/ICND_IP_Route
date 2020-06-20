@@ -34,7 +34,14 @@
 
 * RIP 路由資訊通訊協定
 
+      Router# sh ip route
+      Router# debug ip rip
+      
+
 * IGRP 內部閘道路由通訊協定(一個自主系統內)
+
+       Router(config-router)#router-idrp as-no.
+       Router(config-router)#network net-no.
 
 * EIGRP 加強式內部閘道路由通訊協定（多個自主系統間，混合 RIP 和 OSPF 演算法）
 
