@@ -42,5 +42,9 @@
 
 * BGP 邊界閘道器通訊協定
 
+# 靜態路由指令
+
+Router(config)#ip route + <通往目的地子網路的路徑 IP/subnetMask> + <通往目的地途經的 Next Hops IP add>
+
 
 
