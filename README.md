@@ -40,11 +40,15 @@
 
 * IGRP 內部閘道路由通訊協定(一個自主系統內)
 
-       Router(config-router)#router-idrp as-no.
-       Router(config-router)#network net-no.
+       Router(config-router)#router-igrp + <as-number>
+       Router(config-router)#network + <network-number>
+       
        Router(config-router)#traffic-share balanced
+       
        Router# sh ip protocols
+       
        Router# sh ip route
+       
        Router#debug ip igrp trans (transaction)
        Router#debug ip igrp events
 
